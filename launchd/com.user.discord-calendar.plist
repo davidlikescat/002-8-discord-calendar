@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.discord-calendar</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/hh/Library/CloudStorage/GoogleDrive-davidlikessangria@gmail.com/My Drive/Agentic AI/002_Share_Contents_notion/002-8_discord_schedule_calendar</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/hh/Library/CloudStorage/GoogleDrive-davidlikessangria@gmail.com/My Drive/Agentic AI/.venv/bin/python</string>
+        <string>bot.py</string>
+    </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/hh/.npm-global/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/hh</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/hh/Library/CloudStorage/GoogleDrive-davidlikessangria@gmail.com/My Drive/Agentic AI/002_Share_Contents_notion/002-8_discord_schedule_calendar/logs/launchd.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/hh/Library/CloudStorage/GoogleDrive-davidlikessangria@gmail.com/My Drive/Agentic AI/002_Share_Contents_notion/002-8_discord_schedule_calendar/logs/launchd.err.log</string>
+</dict>
+</plist>
